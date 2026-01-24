@@ -1,0 +1,11 @@
+#Documantation and  flow
+
+# Initial file structure overview
+
+PatientServiceApplication.java -> Main entry point for our PatientServiceApplication
+pom.xml -> contains dependencies
+
+
+#Packages
+
+com.pm.patientservice.model -> contains all domain entities
