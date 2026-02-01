@@ -1,11 +1,28 @@
 #Documantation and  flow
 
 # Initial file structure overview
-
 PatientServiceApplication.java -> Main entry point for our PatientServiceApplication
 pom.xml -> contains dependencies
 
-
 #Packages
-
 com.pm.patientservice.model -> contains all domain entities
+
+
+#Entities-> directly saved in database
+patient.class
+
+#database
+h2 in memory db
+
+# application.properties
+jdbc setup
+
+error fix -> spring verison in pom.xml to 3.4.0 from 4.0.0 as it does nt support 
+            the given format.
+
+h2 console -> http://localhost:4000/h2-console
+
+Driver Class:	org.h2.Driver
+JDBC URL:	    jdbc:h2:mem:testdb
+User Name:	    admin_viewer
+Password:	    admin123
